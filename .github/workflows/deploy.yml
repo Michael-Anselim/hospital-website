@@ -21,6 +21,10 @@ jobs:
     - name: Deploy to Linode 
       run: |
         ssh -o StrictHostKeyChecking=no ${{ secrets.LINODE_USER }}@${{ secrets.LINODE_IP }} << 'EOF'
+          # Add GitHub to known hosts
+          mkdir -p ~/.ssh
+          ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+
           # Create the project directory if it doesn't exist
           if [ ! -d ~/hospital ]; then
             git clone git@github.com:wilfred-silayo/hospital.git ~/hospital
