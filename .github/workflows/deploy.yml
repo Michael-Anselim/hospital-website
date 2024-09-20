@@ -23,7 +23,7 @@ jobs:
         ssh -o StrictHostKeyChecking=no ${{ secrets.LINODE_USER }}@${{ secrets.LINODE_IP }} << 'EOF'
           # Create the project directory if it doesn't exist
           if [ ! -d ~/hospital ]; then
-            git clone https://github.com/wilfred-silayo/hospital.git ~/hospital
+            git clone git@github.com:wilfred-silayo/hospital.git ~/hospital
           else
             cd ~/hospital
             git fetch origin
