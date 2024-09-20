@@ -20,24 +20,25 @@ jobs:
 
     - name: Deploy to Linode 
       run: |
-        ssh -o StrictHostKeyChecking=no ${{ secrets.LINODE_USER }}@${{ secrets.LINODE_IP }} << 'EOF'
-          # Add GitHub to known hosts
-          mkdir -p ~/.ssh
-          ssh-keyscan -H github.com >> ~/.ssh/known_hosts
-
-          # Create the project directory if it doesn't exist
-          if [ ! -d ~/hospital ]; then
-            git clone git@github.com:wilfred-silayo/hospital.git ~/hospital
-          else
+          ssh -o StrictHostKeyChecking=no ${{ secrets.LINODE_USER }}@${{ secrets.LINODE_IP }} << 'EOF'
+            # Add GitHub to known hosts
+            mkdir -p ~/.ssh
+            ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+      
+            # Create the project directory if it doesn't exist
+            if [ ! -d ~/hospital ]; then
+              git clone git@github.com:wilfred-silayo/hospital.git ~/hospital
+            else
+              cd ~/hospital
+              git fetch origin
+              git reset --hard origin/main
+            fi
+      
             cd ~/hospital
-            git fetch origin
-            git reset --hard origin/main
-          fi
-
-          cd ~/hospital
-          composer install --no-interaction --prefer-dist --optimize-autoloader
-          php artisan migrate --force
-          php artisan key:generate
-          chown -R ${{ secrets.LINODE_USER }}:www-data ~/hospital/storage ~/hospital/bootstrap/cache
-          chmod -R 775 ~/hospital/storage ~/hospital/bootstrap/cache
-        EOF
+            composer install --no-interaction --prefer-dist --optimize-autoloader
+            php artisan migrate --force
+            php artisan key:generate
+            chown -R ${{ secrets.LINODE_USER }}:www-data ~/hospital/storage ~/hospital/bootstrap/cache
+            chmod -R 775 ~/hospital/storage ~/hospital/bootstrap/cache
+          EOF
+      
