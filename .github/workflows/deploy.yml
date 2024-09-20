@@ -21,14 +21,12 @@ jobs:
     - name: Deploy to Linode Server
       run: |
         ssh -o StrictHostKeyChecking=no ${{ secrets.LINODE_USER }}@${{ secrets.LINODE_IP }} << 'EOF'
-          sudo mkdir -p /var/www/hospital
-          sudo chown -R ${{ secrets.LINODE_USER }}:www-data /var/www/hospital
-          cd /var/www/hospital
+          mkdir -p ~/hospital
+          cd ~/hospital
           git pull origin main
           composer install --no-interaction --prefer-dist --optimize-autoloader
           php artisan migrate --force
           php artisan key:generate
-          sudo chown -R www-data:www-data /var/www/hospital/storage /var/www/hospital/bootstrap/cache
-          sudo chmod -R 775 /var/www/hospital/storage /var/www/hospital/bootstrap/cache
-          sudo systemctl restart apache2
+          chown -R ${{ secrets.LINODE_USER }}:www-data ~/hospital/storage ~/hospital/bootstrap/cache
+          chmod -R 775 ~/hospital/storage ~/hospital/bootstrap/cache
         EOF
