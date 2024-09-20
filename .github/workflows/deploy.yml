@@ -24,11 +24,13 @@ jobs:
           # Create the project directory if it doesn't exist
           if [ ! -d ~/hospital ]; then
             git clone https://github.com/wilfred-silayo/hospital.git ~/hospital
+          else
+            cd ~/hospital
+            git fetch origin
+            git reset --hard origin/main
           fi
 
           cd ~/hospital
-          git pull origin main
-
           composer install --no-interaction --prefer-dist --optimize-autoloader
           php artisan migrate --force
           php artisan key:generate
