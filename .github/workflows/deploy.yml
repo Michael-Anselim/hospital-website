@@ -21,9 +21,18 @@ jobs:
     - name: Deploy to Linode Server
       run: |
         ssh -o StrictHostKeyChecking=no ${{ secrets.LINODE_USER }}@${{ secrets.LINODE_IP }} << 'EOF'
-          mkdir -p ~/hospital
-          cd ~/hospital
-          git pull origin main
+          # Create the project directory if it doesn't exist
+          if [ ! -d ~/hospital ]; then
+            mkdir -p ~/hospital
+            cd ~/hospital
+            git init
+            git remote add origin https://github.com/wilfred-silayo/hospital.git
+            git pull origin main
+          else
+            cd ~/hospital
+            git pull origin main
+          fi
+
           composer install --no-interaction --prefer-dist --optimize-autoloader
           php artisan migrate --force
           php artisan key:generate
