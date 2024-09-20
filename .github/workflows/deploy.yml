@@ -18,7 +18,7 @@ jobs:
       with:
         ssh-private-key: ${{ secrets.SSH_KEY }}
 
-    - name: Deploy to Linode Server
+    - name: Deploy to Linode 
       run: |
         ssh -o StrictHostKeyChecking=no ${{ secrets.LINODE_USER }}@${{ secrets.LINODE_IP }} << 'EOF'
           # Create the project directory if it doesn't exist
