@@ -1,0 +1,32 @@
+name: Deploy Laravel Application
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up SSH for deployment
+      uses: webfactory/ssh-agent@v0.5.3
+      with:
+        ssh-private-key: ${{ secrets.SSH_KEY }}
+
+    - name: Deploy to Linode Server
+      run: |
+        ssh -o StrictHostKeyChecking=no ${{ secrets.LINODE_USER }}@${{ secrets.LINODE_IP }} << 'EOF'
+          cd /var/www/hospital || mkdir -p /var/www/hospital && cd /var/www/hospital
+          git pull origin main
+          composer install --no-interaction --prefer-dist --optimize-autoloader
+          php artisan migrate --force
+          php artisan key:generate
+          chown -R www-data:www-data /var/www/hospital/storage /var/www/hospital/bootstrap/cache
+          chmod -R 775 /var/www/hospital/storage /var/www/hospital/bootstrap/cache
+          sudo systemctl restart apache2
+        EOF
