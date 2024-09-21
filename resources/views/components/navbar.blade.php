@@ -1,33 +1,60 @@
 <!-- Start menu -->
 <section id="mu-menu">
-  <nav class="navbar navbar-default navbar-expand-lg bg-white border-bottom m-0 ">
-    <div class="container-fluid">
-      <!-- LOGO -->
-      <a class="navbar-brand ms-5" href="{{ route('welcome') }}"><i class="fa fa-university text-primary"></i></a>
-      
-      <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- LOGO -->
+        <!-- TEXT BASED LOGO -->
+        <!-- <div style="display: inline-flex;">
+          <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('assets/img/logo1.png')}}" alt="Logo" width="50"></a>
+          <h2 style="font-weight:bold; text-align:baseline;">Rhotia Health Centre</h2>
+        </div> -->
 
-      <div class="collapse navbar-collapse" id="navbar">
-        <ul id="top-menu" class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <a class="navbar-brand" href="{{ url('/') }}">
+          <i><img src="{{ asset('assets/img/logo1.png') }}" alt="Logo" width="50" /></i>
+          <span class="navbar-text">Rhotia Health Centre</span>
+        </a>
+
+
+        <!-- IMG BASED LOGO  -->
+        <!-- <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo"></a> -->
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
           <x-nav-link route_name="welcome">Home</x-nav-link>
-          <x-nav-link route_name="gallery.index">Gallery</x-nav-link>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><x-nav-link route_name="welcome">Service 1</x-nav-link></li>
-              <li><x-nav-link route_name="welcome">Service 2</x-nav-link></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Services <span class="fa fa-angle-down"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><x-nav-link route_name="outpatient.services">Outpatient Services</x-nav-link></li>
+              <li><x-nav-link route_name="inpatient.services">Inpatient Services</x-nav-link></li>
             </ul>
           </li>
-          <x-nav-link route_name="contact.index">Contact</x-nav-link>
-          <x-nav-link route_name="blog.index">Blog</x-nav-link>
-          <x-nav-link route_name="login">Login</x-nav-link>
+          <x-nav-link route_name="gallery">Gallery</x-nav-link>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span class="fa fa-angle-down"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><x-nav-link route_name="whoweare">Who We Are</x-nav-link></li>
+              <li><x-nav-link route_name="missionandvision">Mission And Vision</x-nav-link></li>
+            </ul>
+          </li>
+          <x-nav-link route_name="contact">Contact</x-nav-link>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Services <span class="fa fa-angle-down"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><x-nav-link route_name="joinus">Join Us Through Donation</x-nav-link></li>
+              <li><x-nav-link route_name="projects">Ongoing Projects</x-nav-link></li>
+            </ul>
+          </li>
         </ul>
-      </div>
+      </div><!--/.nav-collapse -->
     </div>
   </nav>
 </section>

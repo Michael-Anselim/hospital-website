@@ -1,85 +1,60 @@
-  <!-- Start Slider -->
-  <section id="mu-slider">
-    <!-- Start single slider item -->
-    <div class="mu-slider-single">
-      <div class="mu-slider-img">
-        <figure>
-          <img src="assets/img/slider/1.jpg" alt="img">
-        </figure>
-      </div>
-      <div class="mu-slider-content">
-        <h4>Welcome To Varsity</h4>
-        <span></span>
-        <h2>We Will Help You To Learn</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor amet error eius reiciendis eum sint unde eveniet deserunt est debitis corporis temporibus recusandae accusamus.</p>
-        <a href="#" class="mu-read-more-btn">Read More</a>
-      </div>
+<!-- Start Slider -->
+<section id="mu-slider">
+  <!-- Start single slider item -->
+  <div class="mu-slider-single">
+    <div class="mu-slider-img">
+      <figure>
+        <img src="{{asset('assets/img/slider/1.png')}}" alt="img">
+      </figure>
     </div>
-    <!-- Start single slider item -->
-    <!-- Start single slider item -->
-    <div class="mu-slider-single">
-      <div class="mu-slider-img">
-        <figure>
-          <img src="assets/img/slider/2.jpg" alt="img">
-        </figure>
-      </div>
-      <div class="mu-slider-content">
-        <h4>Premiumu Quality Free Template</h4>
-        <span></span>
-        <h2>Best Education Template Ever</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor amet error eius reiciendis eum sint unde eveniet deserunt est debitis corporis temporibus recusandae accusamus.</p>
-        <a href="#" class="mu-read-more-btn">Read More</a>
-      </div>
+  </div>
+  <!-- Start single slider item -->
+  <!-- Start single slider item -->
+  <div class="mu-slider-single">
+    <div class="mu-slider-img">
+      <figure>
+        <img src="{{asset('assets/img/slider/2.png')}}" alt="img">
+      </figure>
     </div>
-    <!-- Start single slider item -->
-    <!-- Start single slider item -->
-    <div class="mu-slider-single">
-      <div class="mu-slider-img">
-        <figure>
-          <img src="assets/img/slider/3.jpg" alt="img">
-        </figure>
-      </div>
-      <div class="mu-slider-content">
-        <h4>Exclusivly For Education</h4>
-        <span></span>
-        <h2>Education For Everyone</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor amet error eius reiciendis eum sint unde eveniet deserunt est debitis corporis temporibus recusandae accusamus.</p>
-        <a href="#" class="mu-read-more-btn">Read More</a>
-      </div>
+  </div>
+  <!-- Start single slider item -->
+  <!-- Start single slider item -->
+  <div class="mu-slider-single">
+    <div class="mu-slider-img">
+      <figure>
+        <img src="{{asset('assets/img/slider/3.jpg')}}" alt="img">
+      </figure>
     </div>
-    <!-- Start single slider item -->    
-  </section>
-  <!-- End Slider -->
-  <!-- Start service  -->
-  <section id="mu-service">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12">
-          <div class="mu-service-area">
-            <!-- Start single service -->
-            <div class="mu-service-single">
-              <span class="fa fa-book"></span>
-              <h3>Learn Online</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima officiis, deleniti dolorem exercitationem praesentium, est!</p>
-            </div>
-            <!-- Start single service -->
-            <!-- Start single service -->
-            <div class="mu-service-single">
-              <span class="fa fa-users"></span>
-              <h3>Expert Teachers</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima officiis, deleniti dolorem exercitationem praesentium, est!</p>
-            </div>
-            <!-- Start single service -->
-            <!-- Start single service -->
-            <div class="mu-service-single">
-              <span class="fa fa-table"></span>
-              <h3>Best Classrooms</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima officiis, deleniti dolorem exercitationem praesentium, est!</p>
-            </div>
-            <!-- Start single service -->
+  </div>
+  <!-- Start single slider item -->
+</section>
+<!-- End Slider -->
+<section id="mu-service">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        <div class="mu-service-area">
+          <!-- Start single service -->
+          <div class="mu-service-single">
+            <h3>Our Vision</h3>
+            <p>To Provide Quality Health Services Through Carring And Being Responsible To Further The Ministry Of Jesus Christ To The Family Of God..</p>
           </div>
+          <!-- Start single service -->
+          <!-- Start single service -->
+          <div class="mu-service-single">
+            <h3>Our Mission</h3>
+            <p>To embrace the healing mission of JESUS, the Divine Healer and to show a firm solidarity with those deprived to Health Care and the marganalized so as to bring about an intergrated humnaity through health services .</p>
+          </div>
+          <!-- Start single service -->
+          <!-- Start single service -->
+          <div class="mu-service-single">
+            <h3>Our Core Value</h3>
+            <p>Quality, Accessibility/Availability and transaparency of Health Proffession adhering to Ethical code of conduct and providing confirting services to all the needs, No practice of Bribery neither Corruption.</p>
+          </div>
+          <!-- Start single service -->
         </div>
       </div>
     </div>
-  </section>
-  <!-- End service  -->
+  </div>
+</section>
+<!-- End service  -->

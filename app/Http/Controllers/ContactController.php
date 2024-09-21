@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactFormMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -12,6 +14,21 @@ class ContactController extends Controller
     public function index()
     {
         return view('contact');
+    }
+
+    public function sendEmail(Request $request)
+    {
+        $data = $request->validate([
+            'author' => 'required|string',
+            'email' => 'required|email',
+            'subject' => 'nullable|string',
+            'comment' => 'required|string',
+        ]);
+
+        // Send the email
+        Mail::to(env('MAIL_FROM_ADDRESS'))->send(new ContactFormMail($data));
+
+        return back()->with('success', 'Your message has been sent!');
     }
 
     /**

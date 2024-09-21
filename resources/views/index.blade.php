@@ -13,7 +13,5 @@
 <x-statistics/>
 <x-our-features/>
 <x-employees/>
-<x-footer/>
-
 
 @endsection

@@ -1,4 +1,3 @@
-
   <!-- Start our teacher -->
   <section id="mu-our-teacher">
     <div class="container">
@@ -7,8 +6,8 @@
           <div class="mu-our-teacher-area">
             <!-- begain title -->
             <div class="mu-title">
-              <h2>Our Teachers</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, repudiandae, suscipit repellat minus molestiae ea.</p>
+              <h2>Our Leaders</h2>
+              <p>Our Facility is under these dedicated hardworking and tirelessly leaders.</p>
             </div>
             <!-- end title -->
             <!-- begain our teacher content -->
@@ -18,17 +17,11 @@
                   <div class="mu-our-teacher-single">
                     <figure class="mu-our-teacher-img">
                       <img src="assets/img/teachers/teacher-01.png" alt="teacher img">
-                      <div class="mu-our-teacher-social">
-                        <a href="#"><span class="fa fa-facebook"></span></a>
-                        <a href="#"><span class="fa fa-twitter"></span></a>
-                        <a href="#"><span class="fa fa-linkedin"></span></a>
-                        <a href="#"><span class="fa fa-google-plus"></span></a>
-                      </div>
                     </figure>                    
                     <div class="mu-ourteacher-single-content">
-                      <h4>Brian Dean</h4>
-                      <span>Math Teacher</span>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quod pariatur recusandae odio dignissimos. Eligendi.</p>
+                      <h4>Askofu</h4>
+                      <span>Mkuu wa Jimbo</span>
+                      <p>Desc.</p>
                     </div>
                   </div>
                 </div>
@@ -36,17 +29,11 @@
                   <div class="mu-our-teacher-single">
                     <figure class="mu-our-teacher-img">
                       <img src="assets/img/teachers/teacher-02.png" alt="teacher img">
-                      <div class="mu-our-teacher-social">
-                        <a href="#"><span class="fa fa-facebook"></span></a>
-                        <a href="#"><span class="fa fa-twitter"></span></a>
-                        <a href="#"><span class="fa fa-linkedin"></span></a>
-                        <a href="#"><span class="fa fa-google-plus"></span></a>
-                      </div>
                     </figure>                    
                     <div class="mu-ourteacher-single-content">
-                      <h4>James Hein</h4>
-                      <span>Physics Teacher</span>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quod pariatur recusandae odio dignissimos. Eligendi.</p>
+                      <h4>Sr. Prisila E. Lyangani</h4>
+                      <span>Mkurugenzi</span>
+                      <p>Desc.</p>
                     </div>
                   </div>
                 </div>
@@ -54,17 +41,11 @@
                   <div class="mu-our-teacher-single">
                     <figure class="mu-our-teacher-img">
                       <img src="assets/img/teachers/teacher-03.png" alt="teacher img">
-                      <div class="mu-our-teacher-social">
-                        <a href="#"><span class="fa fa-facebook"></span></a>
-                        <a href="#"><span class="fa fa-twitter"></span></a>
-                        <a href="#"><span class="fa fa-linkedin"></span></a>
-                        <a href="#"><span class="fa fa-google-plus"></span></a>
-                      </div>
                     </figure>                    
                     <div class="mu-ourteacher-single-content">
-                      <h4>Rebeca Michel</h4>
-                      <span>English Teacher</span>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quod pariatur recusandae odio dignissimos. Eligendi.</p>
+                      <h4>Dr. Rozina J. Hangu</h4>
+                      <span>Medical Officer In Charge</span>
+                      <p>Desc.</p>
                     </div>
                   </div>
                 </div>
@@ -72,17 +53,11 @@
                   <div class="mu-our-teacher-single">
                     <figure class="mu-our-teacher-img">
                       <img src="assets/img/teachers/teacher-04.png" alt="teacher img">
-                      <div class="mu-our-teacher-social">
-                        <a href="#"><span class="fa fa-facebook"></span></a>
-                        <a href="#"><span class="fa fa-twitter"></span></a>
-                        <a href="#"><span class="fa fa-linkedin"></span></a>
-                        <a href="#"><span class="fa fa-google-plus"></span></a>
-                      </div>
                     </figure>                    
                     <div class="mu-ourteacher-single-content">
-                      <h4>John Doe</h4>
-                      <span>Biology Teacher</span>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quod pariatur recusandae odio dignissimos. Eligendi.</p>
+                      <h4>Yohan Stanley</h4>
+                      <span>Health Secretary</span>
+                      <p>Desc.</p>
                     </div>
                   </div>
                 </div>
