@@ -3,9 +3,6 @@
 use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
-/**
- * Guest
- */
 
 Route::get('/', function () {
     return view('index');
@@ -15,13 +12,9 @@ Route::get('/gallery',  function () {
     return view('gallery');
 })->name('gallery');
 
-Route::get('/outpatient/services',  function () {
-    return view('opd');
-})->name('outpatient.services');
-
-Route::get('/inpatient/services',  function () {
-    return view('ipd');
-})->name('inpatient.services');
+Route::get('/services',  function () {
+    return view('services');
+})->name('services');
 
 Route::get('/whoweare',  function () {
     return view('who-we-are');

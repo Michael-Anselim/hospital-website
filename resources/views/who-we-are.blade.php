@@ -4,409 +4,71 @@
 
 @section('content')
 
-<section id="mu-course-content">
+<section id="">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="mu-course-content-area">
-                    <div class="row">
-                        <div class="col-md-9">
-                            <!-- start course content container -->
-                            <div class="mu-course-container mu-blog-single">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        @if(session('success'))
-                                        <div class="alert alert-success">
-                                            {{ session('success') }}
-                                        </div>
-                                        @endif
-                                        <article class="mu-blog-single-item">
-                                            <figure class="mu-blog-single-img">
-                                                <a href="#"><img alt="img" src="assets/img/blog/blog-3.jpg"></a>
-                                                <figcaption class="mu-blog-caption">
-                                                    <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                                                </figcaption>
-                                            </figure>
-                                            <div class="mu-blog-meta">
-                                                <a href="#">By Admin</a>
-                                                <a href="#">02 June 2016</a>
-                                                <span><i class="fa fa-comments-o"></i>87</span>
-                                            </div>
-                                            <div class="mu-blog-description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Vitae, dolorum voluptate quis repudiandae eos molestiae dolores enim.</p>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus autem molestias nostrum eius optio et rem, cum voluptatibus aperiam soluta reiciendis quae nisi, debitis totam harum nulla! Voluptatem commodi quis, atque labore, sapiente tempora temporibus, repellendus laboriosam sunt aut dolores laborum libero? Laudantium non, enim, repellat recusandae quisquam aperiam hic amet corporis ipsam. Similique velit ipsa, quasi assumenda consequuntur earum.</p>
-                                                <blockquote>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas numquam quis obcaecati, a sed ad aut totam fugiat, cumque quasi!</p>
-                                                </blockquote>
-                                                <h1>Lorem ipsum dolor sit amet.</h1>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam distinctio voluptatibus sequi sint, in. Soluta alias sunt, voluptates necessitatibus neque, perspiciatis, quos doloribus quae non tempore ut qui facere nulla.</p>
-                                                <h2>Lorem ipsum dolor sit amet, consectetur.</h2>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus dolor totam architecto voluptatum, unde non ipsum officia adipisci, eos error, expedita corporis laudantium esse. Mollitia minus, molestias doloremque! Earum, fuga!</p>
-                                                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus omnis laudantium magni ut voluptatum, asperiores consequatur ducimus tempore enim possimus aliquid eius aliquam nam quasi itaque officiis debitis ad minima.</p>
-                                                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum officia iure voluptas deleniti tempora eum ipsa explicabo tenetur laborum doloribus, perferendis quam enim molestiae. Officia numquam harum quam blanditiis sapiente!</p>
-                                                <ul>
-                                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                                    <li>Obcaecati quas earum minima perspiciatis corrupti quasi cum.</li>
-                                                    <li>Vero mollitia voluptas libero praesentium ut dolor, labore.</li>
-                                                    <li>Eius, odit, incidunt. Voluptates iusto, a sapiente reiciendis?</li>
-                                                    <li>Quos, tenetur voluptas, dolore sapiente nisi repellat odio.</li>
-                                                </ul>
-
-                                            </div>
-                                            <!-- start blog post tags -->
-                                            <div class="mu-blog-tags">
-                                                <ul class="mu-news-single-tagnav">
-                                                    <li>TAGS :</li>
-                                                    <li><a href="#">Science,</a></li>
-                                                    <li><a href="#">English,</a></li>
-                                                    <li><a href="#">Sports,</a></li>
-                                                    <li><a href="#">Health</a></li>
-                                                </ul>
-                                            </div>
-                                            <!-- End blog post tags -->
-                                            <!-- start blog social share -->
-                                            <div class="mu-blog-social">
-                                                <ul class="mu-news-social-nav">
-                                                    <li>SOCIAL SHARE :</li>
-                                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                                    <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                                                    <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-                                                </ul>
-                                            </div>
-                                            <!-- End blog social share -->
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end course content container -->
-                            <!-- start blog navigation -->
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="mu-blog-single-navigation">
-                                        <a class="mu-blog-prev" href="#"><span class="fa fa-angle-left"></span>Prev</a>
-                                        <a class="mu-blog-next" href="#">Next<span class="fa fa-angle-right"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end blog navigation -->
-                            <!-- start related course item -->
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="mu-related-item">
-                                        <h3>Related News</h3>
-                                        <div class="mu-related-item-area">
-                                            <div id="mu-related-item-slide">
-                                                <div class="col-md-6">
-                                                    <article class="mu-blog-single-item">
-                                                        <figure class="mu-blog-single-img">
-                                                            <a href="#"><img alt="img" src="assets/img/blog/blog-1.jpg"></a>
-                                                            <figcaption class="mu-blog-caption">
-                                                                <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                                                            </figcaption>
-                                                        </figure>
-                                                        <div class="mu-blog-meta">
-                                                            <a href="#">By Admin</a>
-                                                            <a href="#">02 June 2016</a>
-                                                            <span><i class="fa fa-comments-o"></i>87</span>
-                                                        </div>
-                                                        <div class="mu-blog-description">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Vitae, dolorum voluptate quis repudiandae eos molestiae dolores enim.</p>
-                                                            <a href="#" class="mu-read-more-btn">Read More</a>
-                                                        </div>
-                                                    </article>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <article class="mu-blog-single-item">
-                                                        <figure class="mu-blog-single-img">
-                                                            <a href="#"><img alt="img" src="assets/img/blog/blog-2.jpg"></a>
-                                                            <figcaption class="mu-blog-caption">
-                                                                <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                                                            </figcaption>
-                                                        </figure>
-                                                        <div class="mu-blog-meta">
-                                                            <a href="#">By Admin</a>
-                                                            <a href="#">02 June 2016</a>
-                                                            <span><i class="fa fa-comments-o"></i>87</span>
-                                                        </div>
-                                                        <div class="mu-blog-description">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Vitae, dolorum voluptate quis repudiandae eos molestiae dolores enim.</p>
-                                                            <a href="#" class="mu-read-more-btn">Read More</a>
-                                                        </div>
-                                                    </article>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <article class="mu-blog-single-item">
-                                                        <figure class="mu-blog-single-img">
-                                                            <a href="#"><img alt="img" src="assets/img/blog/blog-3.jpg"></a>
-                                                            <figcaption class="mu-blog-caption">
-                                                                <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                                                            </figcaption>
-                                                        </figure>
-                                                        <div class="mu-blog-meta">
-                                                            <a href="#">By Admin</a>
-                                                            <a href="#">02 June 2016</a>
-                                                            <span><i class="fa fa-comments-o"></i>87</span>
-                                                        </div>
-                                                        <div class="mu-blog-description">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Vitae, dolorum voluptate quis repudiandae eos molestiae dolores enim.</p>
-                                                            <a href="#" class="mu-read-more-btn">Read More</a>
-                                                        </div>
-                                                    </article>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <article class="mu-blog-single-item">
-                                                        <figure class="mu-blog-single-img">
-                                                            <a href="#"><img alt="img" src="assets/img/blog/blog-1.jpg"></a>
-                                                            <figcaption class="mu-blog-caption">
-                                                                <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                                                            </figcaption>
-                                                        </figure>
-                                                        <div class="mu-blog-meta">
-                                                            <a href="#">By Admin</a>
-                                                            <a href="#">02 June 2016</a>
-                                                            <span><i class="fa fa-comments-o"></i>87</span>
-                                                        </div>
-                                                        <div class="mu-blog-description">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Vitae, dolorum voluptate quis repudiandae eos molestiae dolores enim.</p>
-                                                            <a href="#" class="mu-read-more-btn">Read More</a>
-                                                        </div>
-                                                    </article>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end start related course item -->
-                            <!-- start blog comment -->
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="mu-comments-area">
-                                        <h3>5 Comments</h3>
-                                        <div class="comments">
-                                            <ul class="commentlist">
-                                                <li>
-                                                    <div class="media">
-                                                        <div class="media-left">
-                                                            <img alt="img" src="assets/img/testimonial-1.png" class="media-object news-img">
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <h4 class="author-name">David Muller</h4>
-                                                            <span class="comments-date"> Posted on 12th June, 2016</span>
-                                                            <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                                                            <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="media">
-                                                        <div class="media-left">
-                                                            <img alt="img" src="assets/img/testimonial-2.png" class="media-object news-img">
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <h4 class="author-name">John Doe</h4>
-                                                            <span class="comments-date"> Posted on 12th June, 2016</span>
-                                                            <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                                                            <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <ul class="children">
-                                                    <li class="author-comments">
-                                                        <div class="media">
-                                                            <div class="media-left">
-                                                                <img alt="img" src="assets/img/testimonial-3.png" class="media-object news-img">
-                                                            </div>
-                                                            <div class="media-body">
-                                                                <h4 class="author-name">Admin</h4>
-                                                                <span class="comments-date"> Posted on 12th June, 2016</span>
-                                                                <span class="author-tag">Author</span>
-                                                                <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                                                                <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <ul class="children">
-                                                        <li>
-                                                            <div class="media">
-                                                                <div class="media-left">
-                                                                    <img alt="img" src="assets/img/testimonial-1.png" class="media-object news-img">
-                                                                </div>
-                                                                <div class="media-body">
-                                                                    <h4 class="author-name">David Muller</h4>
-                                                                    <span class="comments-date"> Posted on 12th June, 2016</span>
-                                                                    <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                                                                    <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </ul>
-                                                <li>
-                                                    <div class="media">
-                                                        <div class="media-left">
-                                                            <img alt="img" src="assets/img/testimonial-2.png" class="media-object news-img">
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <h4 class="author-name">Jhon Doe</h4>
-                                                            <span class="comments-date"> Posted on 12th June, 2016</span>
-                                                            <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                                                            <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                            <!-- comments pagination -->
-                                            <nav>
-                                                <ul class="pagination comments-pagination">
-                                                    <li>
-                                                        <a aria-label="Previous" href="#">
-                                                            <span class="fa fa-long-arrow-left"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li><a href="#">1</a></li>
-                                                    <li><a href="#">2</a></li>
-                                                    <li><a href="#">3</a></li>
-                                                    <li><a href="#">4</a></li>
-                                                    <li><a href="#">5</a></li>
-                                                    <li>
-                                                        <a aria-label="Next" href="#">
-                                                            <span class="fa fa-long-arrow-right"></span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </nav>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end blog comment -->
-                            <!-- start respond form -->
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div id="respond">
-                                        <h3 class="reply-title">Leave a Comment</h3>
-
-                                        <form action="{{ route('contact.send') }}" method="POST" class="contactform">
-                                            @csrf
-                                            <p class="comment-form-author">
-                                                <label for="author">Name <span class="required">*</span></label>
-                                                <input type="text" required="required" size="30" value="" name="author">
-                                            </p>
-                                            <p class="comment-form-email">
-                                                <label for="email">Email <span class="required">*</span></label>
-                                                <input type="email" required="required" aria-required="true" value="" name="email">
-                                            </p>
-                                            <p class="comment-form-url">
-                                                <label for="subject">Subject</label>
-                                                <input type="text" name="subject" required="required">
-                                            </p>
-                                            <p class="comment-form-comment">
-                                                <label for="comment">Message</label>
-                                                <textarea required="required" aria-required="true" rows="8" cols="45" name="comment"></textarea>
-                                            </p>
-                                            <p class="form-submit">
-                                                <input type="submit" value="Send Message" class="mu-post-btn" name="submit">
-                                            </p>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end respond form -->
+        <div class="row" style="margin-top: 10px;">
+            <div class="mu-course-container mu-blog-single">
+                <div class="row">
+                    <div class="col-md-12">
+                        @if(session('success'))
+                        <div class="alert alert-success">
+                            {{ session('success') }}
                         </div>
-                        <div class="col-md-3">
-                            <!-- start sidebar -->
-                            <aside class="mu-sidebar">
-                                <!-- start single sidebar -->
-                                <div class="mu-single-sidebar">
-                                    <h3>Categories</h3>
-                                    <ul class="mu-sidebar-catg">
-                                        <li><a href="#">Web Design</a></li>
-                                        <li><a href="">Web Development</a></li>
-                                        <li><a href="">Math</a></li>
-                                        <li><a href="">Physics</a></li>
-                                        <li><a href="">Camestry</a></li>
-                                        <li><a href="">English</a></li>
-                                    </ul>
-                                </div>
-                                <!-- end single sidebar -->
-                                <!-- start single sidebar -->
-                                <div class="mu-single-sidebar">
-                                    <h3>Popular News</h3>
-                                    <div class="mu-sidebar-popular-courses">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <a href="#">
-                                                    <img class="media-object" src="assets/img/courses/1.jpg" alt="img">
-                                                </a>
-                                            </div>
-                                            <div class="media-body">
-                                                <h4 class="media-heading"><a href="#">Medical Science</a></h4>
-                                                <span class="popular-course-price">$200.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <a href="#">
-                                                    <img class="media-object" src="assets/img/courses/2.jpg" alt="img">
-                                                </a>
-                                            </div>
-                                            <div class="media-body">
-                                                <h4 class="media-heading"><a href="#">Web Design</a></h4>
-                                                <span class="popular-course-price">$250.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <a href="#">
-                                                    <img class="media-object" src="assets/img/courses/3.jpg" alt="img">
-                                                </a>
-                                            </div>
-                                            <div class="media-body">
-                                                <h4 class="media-heading"><a href="#">Health & Sports</a></h4>
-                                                <span class="popular-course-price">$90.00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- end single sidebar -->
-                                <!-- start single sidebar -->
-                                <div class="mu-single-sidebar">
-                                    <h3>Archives</h3>
-                                    <ul class="mu-sidebar-catg mu-sidebar-archives">
-                                        <li><a href="#">May <span>(25)</span></a></li>
-                                        <li><a href="">June <span>(35)</span></a></li>
-                                        <li><a href="">July <span>(20)</span></a></li>
-                                        <li><a href="">August <span>(125)</span></a></li>
-                                        <li><a href="">September <span>(45)</span></a></li>
-                                        <li><a href="">October <span>(85)</span></a></li>
-                                    </ul>
-                                </div>
-                                <!-- end single sidebar -->
-                                <!-- start single sidebar -->
-                                <div class="mu-single-sidebar">
-                                    <h3>Tags Cloud</h3>
-                                    <div class="tag-cloud">
-                                        <a href="#">Health</a>
-                                        <a href="#">Science</a>
-                                        <a href="#">Sports</a>
-                                        <a href="#">Mathematics</a>
-                                        <a href="#">Web Design</a>
-                                        <a href="#">Admission</a>
-                                        <a href="#">History</a>
-                                        <a href="#">Environment</a>
-                                    </div>
-                                </div>
-                                <!-- end single sidebar -->
-                            </aside>
-                            <!-- / end sidebar -->
-                        </div>
+                        @endif
+                        <h2 style="font-weight: bold; margin-bottom:10px;">BACKGROUND</h2>
+                        <p>
+                            The Baldegger Sisters have been dedicated to serving the people of Tanzania since 1921, marking a century of commitment with the involvement of 126 sisters in various mission projects. Guided by the spirituality of St. Francis of Assisi, their efforts encompass both social initiatives and the development of the local church.
+                        </p>
+                        <p>
+                            In 1978, Sisters Clementina Bütler and Erika Lischer established a first aid post in Rhotia, initially living alongside the Capuchin brothers. As their mission expanded, they built a mud house and later a dedicated sisters' residence. Sister Ruth Gasche joined them in 1980, enhancing their community efforts.
+                        </p>
+                        <p>
+                            By 1987, Sister Verona Hutter arrived to take over the health center, focusing on training local women as nurses and midwives. Alongside Sister Blasia Zielmann, who joined in 1988, they transformed the first aid post into a fully-fledged health center by 1997, which included inpatient services. Their dedication extended to caring for marginalized populations, including those with disabilities.
+                        </p>
+                        <p>
+                            The Rhotia Health Centre has consistently provided vital medical care, treating all patients regardless of their ability to pay. The center now serves around 20,000 patients annually, addressing major health issues such as malaria, tuberculosis, and maternal care. The sisters also established a vehicle service for patient transport, vital for timely medical interventions.
+                        </p>
+                        <p>
+                            In 2016, the Mahenge Sisters were invited to take over the management of the center. After the passing of Sister Verona in 2016 and Sister Blasia in 2022, the Mahenge Sisters continued the legacy of compassionate care established by their predecessors. Under the leadership of Sister Prisila and Sister Floriana, the center maintains its commitment to equitable healthcare, relying on donations and government support to serve the community effectively.
+                        </p>
+                        <p>
+                            The Rhotia Health Centre embodies the spirit of the Baldegger Sisters, where care, compassion, and community support create a safe haven for the region's most vulnerable populations.
+                        </p>
                     </div>
                 </div>
             </div>
+            <!-- start respond form -->
+            <div class="row">
+                <div class="col-md-8" style="margin: 10px;">
+                    <div id="respond">
+                        <h3 class="reply-title">Leave a Comment</h3>
+
+                        <form action="{{ route('contact.send') }}" method="POST" class="contactform">
+                            @csrf
+                            <p class="comment-form-author">
+                                <label for="author">Name <span class="required">*</span></label>
+                                <input type="text" required="required" size="30" value="" name="author">
+                            </p>
+                            <p class="comment-form-email">
+                                <label for="email">Email <span class="required">*</span></label>
+                                <input type="email" required="required" aria-required="true" value="" name="email">
+                            </p>
+                            <p class="comment-form-url">
+                                <label for="subject">Subject</label>
+                                <input type="text" name="subject" required="required">
+                            </p>
+                            <p class="comment-form-comment">
+                                <label for="comment">Message</label>
+                                <textarea required="required" aria-required="true" rows="8" cols="30" name="comment"></textarea>
+                            </p>
+                            <p class="form-submit">
+                                <input type="submit" value="Send Message" class="mu-post-btn" name="submit">
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- end respond form -->
         </div>
     </div>
 </section>

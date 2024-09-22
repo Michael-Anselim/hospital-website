@@ -3113,3 +3113,12 @@ img {
         font-size: 1.2rem;
     }
 }
+
+.service-list {
+    list-style-type: disc; /* Default bullet style */
+    margin-left: 20px; /* Adjust left margin for the list */
+}
+.service-list li {
+    margin-bottom: 5px; /* Space between list items */
+}
+

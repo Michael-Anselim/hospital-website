@@ -29,13 +29,7 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
           <x-nav-link route_name="welcome">Home</x-nav-link>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Services <span class="fa fa-angle-down"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><x-nav-link route_name="outpatient.services">Outpatient Services</x-nav-link></li>
-              <li><x-nav-link route_name="inpatient.services">Inpatient Services</x-nav-link></li>
-            </ul>
-          </li>
+          <x-nav-link route_name="services">Our Services</x-nav-link>
           <x-nav-link route_name="gallery">Gallery</x-nav-link>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span class="fa fa-angle-down"></span></a>
@@ -47,7 +41,7 @@
           <x-nav-link route_name="contact">Contact</x-nav-link>
 
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Services <span class="fa fa-angle-down"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Involved <span class="fa fa-angle-down"></span></a>
             <ul class="dropdown-menu" role="menu">
               <li><x-nav-link route_name="joinus">Join Us Through Donation</x-nav-link></li>
               <li><x-nav-link route_name="projects">Ongoing Projects</x-nav-link></li>
