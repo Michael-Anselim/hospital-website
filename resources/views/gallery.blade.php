@@ -12,8 +12,8 @@
                 <div class="mu-gallery-area">
                     <!-- start title -->
                     <div class="mu-title">
-                        <h2>Some Moments</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ut laboriosam corporis doloribus, officia, accusamus illo nam tempore totam alias!</p>
+                        <h2>ENJOY OUR ENVIRONMENT AND ITS SORROUNDINGS</h2>
+                        <p>Welcome to our gallery page! Here, we invite you to explore the vibrant atmosphere of Rhotia Health Center through captivating images that showcase our dedicated team, the people we serve, and the memorable moments we share. This space is a celebration of our community, highlighting the warmth and connection that define our environment. Take a moment to immerse yourself in the stories and experiences that make Rhotia a place of healing and hope. Enjoy your visit!</p>
                     </div>
                     <!-- end title -->
                     <!-- start gallery content -->

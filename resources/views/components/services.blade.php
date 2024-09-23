@@ -35,7 +35,7 @@
       <div class="col-lg-12 col-md-12">
         <div class="mu-service-area">
           <!-- Start single service -->
-          <div class="mu-service-single" style="padding-bottom: 81px;">
+          <div class="mu-service-single" style="padding-bottom: 58px;">
             <h3>Our Vision</h3>
             <p>To Provide Quality Health Services Through Carring And Being Responsible To Further The Ministry Of Jesus Christ To The Family Of God..</p>
           </div>

@@ -36,6 +36,7 @@
 </head>
 
 <body>
+    <x-top-bar/>
     <x-navbar />
     @yield('content')
     <x-footer />
