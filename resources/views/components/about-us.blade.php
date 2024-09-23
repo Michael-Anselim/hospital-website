@@ -6,9 +6,9 @@
           <div class="mu-about-us-area">
             <div class="row">
               <div class="col-12">
-                <div class="mu-about-us-left">
+                <div class="" style="margin: 20px;">
                   <!-- Start Title -->
-                  <div class="mu-title">
+                  <div class="text-center" style="padding: 10px;">
                     <h2>WELCOME TO RHOTIA HEALTH CENTRE</h2>
                   </div>
                   <!-- End Title -->

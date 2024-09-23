@@ -19,7 +19,7 @@
 
         <a class="navbar-brand" href="{{ url('/') }}">
           <i><img src="{{ asset('assets/img/logo1.png') }}" alt="Logo" width="50" /></i>
-          <span class="navbar-text">Rhotia Health Centre</span>
+          <span class="navbar-text" style="font-weight: bold; color:black;">Rhotia Health Centre</span>
         </a>
 
 
