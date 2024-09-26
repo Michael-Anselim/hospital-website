@@ -19,17 +19,30 @@ class ContactController extends Controller
     public function sendEmail(Request $request)
     {
         $data = $request->validate([
-            'author' => 'required|string',
+            'name' => 'required|string',
             'email' => 'required|email',
-            'subject' => 'nullable|string',
-            'comment' => 'required|string',
+            'subject' => 'required|string',
+            'message' => 'required|string',
         ]);
 
-        // Send the email
-        Mail::to(env('MAIL_FROM_ADDRESS'))->send(new ContactFormMail($data));
+        try {
+            // Try to send the email
+            Mail::to(env('MAIL_FROM_ADDRESS'))->send(new ContactFormMail($data));
 
-        return back()->with('success', 'Your message has been sent!');
+            // Return success status if email is sent
+            return back()->with([
+                'status' => 'Your message has been sent!',
+                'type' => 'success'
+            ]);
+        } catch (\Exception $e) {
+            // Catch the error and return an error status
+            return back()->with([
+                'status' => 'Failed to send your message. Please try again later.',
+                'type' => 'error'
+            ]);
+        }
     }
+
 
     /**
      * Show the form for creating a new resource.

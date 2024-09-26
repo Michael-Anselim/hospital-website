@@ -1,60 +1,67 @@
-  <!-- Start footer -->
-  <footer id="mu-footer">
-    <!-- start footer top -->
-    <div class="mu-footer-top">
-      <div class="container">
-        <div class="mu-footer-top-area">
-          <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3">
-              <div class="mu-footer-widget">
-                <h4>Information</h4>
-                <ul>
-                  <li><a href="Who we are.html">About Us</a></li>
-                  <li><a href="IPD.html">Our services</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                  <li><a href="Projects.html">Ongoing Projects</a></li>
-                  <li><a href="contact.html">Location</a></li>
-                  <li><a href="Join Us.html">Get Involved through Donation</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
-              <div class="mu-footer-widget">
-                <h4>Useful Links</h4>
-                <ul>
-                  <li><a href="https://www.nhif.or.tz/">NHIF</a></li>
-                  <li><a href="https://www.moh.go.tz/">MoH</a></li>
-                  <li><a href="https://www.nssf.go.tz/">NSSF</a></li>
-                  <li><a href="https://www.tmda.go.tz/">TMDA</a></li>
-                  <li><a href="https://www.maishatanzania.ch/">Maisha Tanzania Association</a></li>
-                  <li><a href="https://hfrs.moh.go.tz/">HFR</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
-              <div class="mu-footer-widget">
-                <h4>Contact</h4>
-                <address>
-                  <p>P.O. Box 65, Karatu, Arusha, Tanzania</p>
-                  <p>Phone: (+255) 787382076 </p>
-                  <p>Website: www.domain.or.tz</p>
-                  <p>Email: rhotiahealthcentre@gmail.com</p>
-                </address>
-              </div>
-            </div>
-          </div>
-        </div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-12 mb-4">
+        <img src="{{asset('images/logo.png')}}" class="logo img-fluid" alt="Logo">
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <h5 class="site-footer-title mb-3">Quick Links</h5>
+
+        <ul class="footer-menu">
+          <li class="footer-menu-item"><a href="{{route('about')}}" class="footer-menu-link">About Us</a></li>
+
+          <li class="footer-menu-item"><a href="{{route('services')}}" class="footer-menu-link">Our Services</a></li>
+
+          <li class="footer-menu-item"><a href="{{route('gallery')}}" class="footer-menu-link">Work with us</a></li>
+          
+          <li class="footer-menu-item"><a href="{{route('donate')}}" class="footer-menu-link">Donate</a></li>
+
+          <li class="footer-menu-item"><a href="{{route('contact')}}" class="footer-menu-link">Contact us</a></li>
+
+          <li class="footer-menu-item"><a href="{{route('volunteer')}}" class="footer-menu-link">Partner with us</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12 mx-auto">
+        <h5 class="site-footer-title mb-3">Contact Infomation</h5>
+
+        <p class="text-white d-flex mb-2">
+          <i class="bi-telephone me-2"></i>
+
+          <a href="tel: 120-240-9600" class="site-footer-link">
+            (+255) 787382076
+          </a>
+        </p>
+
+        <p class="text-white d-flex">
+          <i class="bi-envelope me-2"></i>
+
+          <a href="mailto:rhotiahealthcentre@gmail.com" class="site-footer-link">
+            rhotiahealthcentre@gmail.com </a>
+        </p>
+
+        <p class="text-white d-flex mt-3">
+          <i class="bi-geo-alt me-2"></i>
+          Karatu, Arusha-Tanzania
+        </p>
+
+        <a href="{{route('contact')}}" class="custom-btn btn mt-3">Get Direction</a>
       </div>
     </div>
-    <!-- end footer top -->
-    <!-- start footer bottom -->
-    <div class="mu-footer-bottom">
-      <div class="container">
-        <div class="mu-footer-bottom-area">
-          <p>&copy; All Right Reserved. Designed by Michael Anselim 2024</a></p>
+  </div>
+
+  <div class="site-footer-bottom">
+    <div class="container">
+      <div class="row">
+
+        <div class=" col-12">
+          <p class="copyright-text mb-0">Copyright © 2024, Rhotia Health Centre. Designed by <a href="#" class="text-warning fw-bold" target="_blank"> Michael Anselim</a> &
+            <a target="_blank" class="text-warning fw-bold" href="https://wilfredsilayo.com">Wilfred Silayo</a>
+          </p>
         </div>
+
       </div>
     </div>
-    <!-- end footer bottom -->
-  </footer>
-  <!-- End footer -->
+  </div>
+</footer>

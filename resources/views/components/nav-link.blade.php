@@ -1,7 +1,7 @@
 @props(['route_name'])
 
-<li class="nav-item {{ request()->routeIs($route_name) ? 'active' : '' }}">
-    <a href="{{ route($route_name) }}" class="nav-link">
+<li class="nav-item">
+    <a href="{{ route($route_name) }}" class="nav-link {{ request()->routeIs($route_name) ? 'active' : '' }}">
         {{ $slot }}
     </a>
 </li>

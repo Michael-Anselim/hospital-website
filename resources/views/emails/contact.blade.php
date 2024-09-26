@@ -5,7 +5,7 @@
 
     <p style="font-size: 16px; color: #555;">
         <strong style="color: #333;">Name:</strong>
-        <span style="color: #555;">{{ $data['author'] }}</span>
+        <span style="color: #555;">{{ $data['name'] }}</span>
     </p>
 
     <p style="font-size: 16px; color: #555;">
@@ -22,7 +22,7 @@
         <strong style="color: #333;">Message:</strong>
     </p>
     <p style="font-size: 16px; line-height: 1.5; color: #555; background-color: #fff; padding: 15px; border-left: 4px solid #f0ad4e;">
-        {{ $data['comment'] }}
+        {{ $data['message'] }}
     </p>
 
     <p style="font-size: 14px; color: #888; margin-top: 30px; text-align: center;">
