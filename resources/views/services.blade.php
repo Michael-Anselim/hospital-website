@@ -156,7 +156,7 @@
         <!-- Surgical & Procedural Services -->
         <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
             <div class="card h-100">
-                <img src="{{ asset('images/services/radiology.jpg')}}" class="card-img-top"
+                <img src="{{ asset('images/services/surgical.jpg')}}" class="card-img-top"
                     alt="Surgical and Procedural Services" />
                 <div class="card-body">
                     <h5 class="card-title">SURGICAL AND PROCEDURAL SERVICES</h5>
@@ -189,7 +189,7 @@
         <!-- CTC Services -->
         <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
             <div class="card h-100">
-                <img src="{{ asset('images/services/radiology.jpg')}}" class="card-img-top" alt="CTC Services" />
+                <img src="{{ asset('images/services/ctc.jpg')}}" class="card-img-top" alt="CTC Services" />
                 <div class="card-body">
                     <h5 class="card-title">CTC SERVICES</h5>
                     <ul class="list-group list-group-flush">

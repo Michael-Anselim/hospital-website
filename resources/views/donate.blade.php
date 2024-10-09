@@ -108,49 +108,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Start Respond Form -->
-                        <div class="row mt-5">
-                            <div class="col-md-8">
-                                <div id="respond">
-                                    <h3 class="mb-4">Leave a Comment</h3>
-                                    <form id="contactForm" action="{{ route('contact.send')}}" method="POST">
-                                        @csrf
-                                        <x-auth-session-status class="mb-4" :status="session('status')"
-                                            :type="session('type')" />
-                                        <div class="form-group mt-3">
-                                            <x-input-label for="name" :value="__('Name')" />
-                                            <x-text-input id="name" type="text" name="name" :value="old('name')"
-                                                autocomplete="name" />
-                                            <x-input-error :messages="$errors->get('name')" class="mt-2" />
-
-                                        </div>
-                                        <div class="form-group mt-3">
-                                            <x-input-label for="email" :value="__('Email')" />
-                                            <x-text-input id="email" type="email" name="email" :value="old('email')"
-                                                autocomplete="email" />
-                                            <x-input-error :messages="$errors->get('email')" class="mt-2" />
-                                        </div>
-                                        <div class="form-group mt-3">
-                                            <x-input-label for="subject" :value="__('Subject')" />
-                                            <x-text-input id="subject" type="text" name="subject"
-                                                :value="old('subject')" autocomplete="subject" />
-                                            <x-input-error :messages="$errors->get('subject')" class="mt-2" />
-                                        </div>
-                                        <div class="form-group mt-3">
-                                            <x-input-label for="message" :value="__('Message')" />
-                                            <x-text-area-input id="message" name="message" type="text" />
-                                        </div>
-                                        <div class="my-3">
-                                            <button type="submit" class="btn btn-outline-success" id="submitBtn">Send
-                                                Message</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Respond Form -->
-
                     </div>
                 </div>
             </div>
