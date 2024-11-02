@@ -29,7 +29,7 @@
         <p class="text-white d-flex mb-2">
           <i class="bi-telephone me-2"></i>
 
-          <a href="tel: 120-240-9600" class="site-footer-link">
+          <a href="tel: (+255) 787382076" class="site-footer-link">
             (+255) 787382076
           </a>
         </p>
@@ -56,9 +56,10 @@
       <div class="row">
 
         <div class=" col-12">
-          <p class="copyright-text mb-0">Copyright © 2024, Rhotia Health Centre. Designed by <a href="#" class="text-warning fw-bold" target="_blank"> Michael Anselim</a> &
+          <center> <p class="copyright-text mb-0">Copyright © 2024, Rhotia Health Centre. Designed by <a href="https://tz.linkedin.com/in/michael-kimario-563874302" class="text-warning fw-bold" target="_blank"> Michael Anselim</a> &
             <a target="_blank" class="text-warning fw-bold" href="https://wilfredsilayo.com">Wilfred Silayo</a>
           </p>
+          </center>
         </div>
 
       </div>

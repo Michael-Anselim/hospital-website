@@ -9,7 +9,7 @@
         <!-- Outpatient & Inpatient Services -->
         <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
             <div class="card h-100">
-                <img src="{{ asset('images/services/radiology.jpg')}}" class="card-img-top"
+                <img src="{{ asset('images/get involved/one.jpg')}}" class="card-img-top"
                     alt="Outpatient & Inpatient Services" />
                 <div class="card-body">
                     <h5 class="card-title">OUTPATIENT & INPATIENT SERVICES</h5>
@@ -35,7 +35,7 @@
         <!-- Laboratory Services -->
         <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
             <div class="card h-100">
-                <img src="{{ asset('images/services/radiology.jpg')}}" class="card-img-top" alt="Laboratory Services" />
+                <img src="{{ asset('images/services/lab.jpg')}}" class="card-img-top" alt="Laboratory Services" />
                 <div class="card-body">
                     <h5 class="card-title">LABORATORY SERVICES</h5>
                     <ul class="list-group list-group-flush">
@@ -62,12 +62,12 @@
         <!-- Radiology Services -->
         <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
             <div class="card h-100">
-                <img src="{{ asset('images/services/radiology.jpg')}}" class="card-img-top" alt="Radiology Services" />
+                <img src="{{ asset('images/services/radiology.webp')}}" class="card-img-top" alt="Radiology Services" />
                 <div class="card-body">
                     <h5 class="card-title">RADIOLOGY SERVICES</h5>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">X-ray</li>
-                        <li class="list-group-item">Ultrasound</li>
+                        <li class="list-group-item">X-rays</li>
+                        <li class="list-group-item">Ultrasounds</li>
                         <li class="list-group-item">ECG’s</li>
                         <li class="list-group-item">HCG’s</li>
                         <li class="list-group-item">B Swallow</li>
@@ -80,7 +80,7 @@
         <!-- Dental Services -->
         <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
             <div class="card h-100">
-                <img src="{{ asset('images/services/radiology.jpg')}}" class="card-img-top" alt="Dental Services" />
+                <img src="{{ asset('images/services/dental.jpg')}}" class="card-img-top" alt="Dental Services" />
                 <div class="card-body">
                     <h5 class="card-title">DENTAL SERVICES</h5>
                     <ul class="list-group list-group-flush">
@@ -111,7 +111,7 @@
         <!-- Maternal Services -->
         <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
             <div class="card h-100">
-                <img src="{{ asset('images/services/maternity.jpg')}}" class="card-img-top" alt="Maternal Services" />
+                <img src="{{ asset('images/services/maternity.webp')}}" class="card-img-top" alt="Maternal Services" />
                 <div class="card-body">
                     <h5 class="card-title">MATERNAL SERVICES</h5>
                     <ul class="list-group list-group-flush">
@@ -156,7 +156,7 @@
         <!-- Surgical & Procedural Services -->
         <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
             <div class="card h-100">
-                <img src="{{ asset('images/services/surgical.jpg')}}" class="card-img-top"
+                <img src="{{ asset('images/services/theater.webp')}}" class="card-img-top"
                     alt="Surgical and Procedural Services" />
                 <div class="card-body">
                     <h5 class="card-title">SURGICAL AND PROCEDURAL SERVICES</h5>
@@ -189,7 +189,7 @@
         <!-- CTC Services -->
         <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
             <div class="card h-100">
-                <img src="{{ asset('images/services/ctc.jpg')}}" class="card-img-top" alt="CTC Services" />
+                <img src="{{ asset('images/services/ctc.webp')}}" class="card-img-top" alt="CTC Services" />
                 <div class="card-body">
                     <h5 class="card-title">CTC SERVICES</h5>
                     <ul class="list-group list-group-flush">
@@ -293,7 +293,7 @@
         <!-- Pharmaceutical Services -->
         <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
             <div class="card h-100">
-                <img src="{{ asset('images/services/radiology.jpg')}}" class="card-img-top" alt="Pharmaceutical Services" />
+                <img src="{{ asset('images/services/pharmacy.jpg')}}" class="card-img-top" alt="Pharmaceutical Services" />
                 <div class="card-body">
                     <h5 class="card-title">PHARMACEUTICAL SERVICES</h5>
                     <ul class="list-group list-group-flush">

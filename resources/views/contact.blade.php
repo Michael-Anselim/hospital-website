@@ -11,7 +11,7 @@
                 <div class="mu-contact-area">
                     <!-- start title -->
                     <div class="mt-4">
-                        <h3 class="text-cyan fw-bold">Get in Touch</h3>
+                      <center>  <h3 class="text-cyan fw-bold">Get in Touch</h3> </center>
                         <p class="text-dark fs-5">
                             Thank you for visiting our website! If you have any questions or need assistance, please
                             feel free to reach out to us using the contact form below, and we'll respond promptly.

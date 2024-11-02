@@ -19,9 +19,6 @@
           <x-nav-link  route_name="about">About</x-nav-link>
 
           <x-nav-link  route_name="services">Services</x-nav-link>
-
-          <x-nav-link  route_name="gallery">Work with us</x-nav-link>
-
           <x-nav-link  route_name="volunteer">Volunteer</x-nav-link>
 
           <x-nav-link  route_name="contact">Contact</x-nav-link>

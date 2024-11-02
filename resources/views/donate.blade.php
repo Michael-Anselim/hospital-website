@@ -15,15 +15,13 @@
                                 <article class="mb-5">
                                     <figure class="mb-4">
                                         <img class="img-fluid" alt="background image"
-                                            src="{{asset('images/services/radiology.jpg')}}">
-                                        <figcaption class="mt-2">
-                                            <h3><a href="#" class="text-cyan fw-bold">DONATION</a></h3>
-                                        </figcaption>
+                                            src="{{asset('images/donate.jpg')}}">
+                                       
                                     </figure>
 
                                     <div>
                                         <h5 class="text-cyan">THE RECONSTRUCTION OF THE OUTPATIENT DEPARTMENT (OPD)</h5>
-                                        <p class="text-dark fs-5">
+                                        <p class="text-dark fs-5" style="text-align: justify;">
                                             Rhotia Health Center has been a vital provider of healthcare services in
                                             Arusha, Tanzania, dedicated to improving the health and wellbeing of our
                                             community. However, the increasing patient load and the limitations of our
@@ -36,26 +34,26 @@
                                         <h5 class="text-cyan">PROJECT OBJECTIVES</h5>
                                         <ol>
                                             <li class="fs-5">
-                                                <span class="fw-bold">Increase Patient Capacity:</span> The current OPD
+                                                <span class="fw-bold" style="text-align: justify;">Increase Patient Capacity:</span> The current OPD
                                                 is constrained in its
                                                 ability to accommodate patients, resulting in long wait times. Our
                                                 objective is to expand the facility, enabling us to serve a
                                                 significantly larger patient population.
                                             </li>
                                             <li class="fs-5">
-                                                <span class="fw-bold">Enhance Patient Care:</span> A modernized OPD will
+                                                <span class="fw-bold" style="text-align: justify;">Enhance Patient Care:</span> A modernized OPD will
                                                 facilitate a more
                                                 efficient and patient centered approach to care, fostering an
                                                 environment that promotes positive health outcomes
                                             </li>
                                             <li class="fs-5">
-                                                <span class="fw-bold">Improve Accessibility:</span> The redesigned OPD
+                                                <span class="fw-bold" style="text-align: justify;">Improve Accessibility:</span> The redesigned OPD
                                                 will ensure equitable
                                                 access to healthcare services for all community members, including
                                                 individuals with disabilities and the elderly.
                                             </li>
                                             <li class="fs-5">
-                                                <span class="fw-bold">Achieve Hospital Level Standards:</span> By
+                                                <span class="fw-bold" style="text-align: justify;">Achieve Hospital Level Standards:</span> By
                                                 upgrading our facilities and
                                                 services, Rhotia Health Center will elevate its operational standards to
                                                 those of a hospital, enabling us to provide a broader spectrum of
@@ -63,7 +61,7 @@
                                             </li>
                                         </ol>
                                         <h5 class="text-cyan">BUDGET ESTIMATE</h5>
-                                        <p class="text-dark fs-5">
+                                        <p class="text-dark fs-5" style="text-align: justify;">
                                             The total estimated cost for the reconstruction of the OPD is $100,000. We
                                             are actively seeking funding through sponsorship and contributions to
                                             support this transformative initiative. By investing in this project, you

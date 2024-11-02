@@ -8,20 +8,20 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-lg-12 col-12 p-0">
+            <div  class="content-area col-lg-12 col-12 p-0">
                 <div id="hero-slide" class="carousel carousel-fade slide" data-bs-ride="carousel"
                     data-bs-interval="5000">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="{{ asset('images/slide/1.png') }}" class="carousel-image img-fluid" alt="...">
+                            <img src="{{ asset('images/slide/1.jpg') }}" class="carousel-image img-fluid" alt="...">
                         </div>
 
                         <div class="carousel-item">
-                            <img src="{{ asset('images/slide/2.png') }}" class="carousel-image img-fluid" alt="...">
+                            <img src="{{ asset('images/slide/2.jpg') }}" class="carousel-image img-fluid" alt="...">
                         </div>
 
                         <div class="carousel-item">
-                            <img src="{{ asset('images/slide/4.jpg') }}" class="carousel-image img-fluid" alt="...">
+                            <img src="{{ asset('images/slide/3.jpg') }}" class="carousel-image img-fluid" alt="...">
                         </div>
                     </div>
 
@@ -68,50 +68,39 @@
     </div>
 </section>
 
-<section class="">
+<section class="content-area col-lg-12 col-12 p-0">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-4 mb-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="mb-3">Our Mission</h5>
-
-                        <p class="fw-bold">To embrace the healing mission of JESUS, the
-                            Divine Healer and to show a firm solidarity with those deprived to Health Care
-                            and the marganalized so as to bring about an intergrated humnaity through health
-                            services.
-                        </p>
-                    </div>
+        <div class="row text-center">
+            <div class="col-lg-3 col-md-6 col-12 mb-4">
+                <div class="featured-block d-flex justify-content-center align-items-center">
+                    <a  class="d-block">
+                        <img src="images/icons/mission.png" class="featured-block-image img-fluid" alt="">
+                        <p class="featured-block-text"><strong>Our Mission</strong></p>
+                        <p class="fw-bold" style="text-align: justify;">To embrace the healing mission of JESUS, the Divine Healer, and to show firm solidarity with those deprived of healthcare and the marginalized, so as to bring about an integrated humanity through health services.</p>
+                    </a>
                 </div>
             </div>
 
-
-
-            <div class="col-12 col-md-4 mb-3">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="mb-3">Our Vision</h5>
-
-                        <p class="fw-bold mb-4">
-                            To Provide Quality Health Services Through Carring And Being Responsible To Further The
-                            Ministry Of Jesus Christ To The Family Of God.
-                        </p>
-                    </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-4">
+                <div class="featured-block d-flex justify-content-center align-items-center">
+                    <a  class="d-block">
+                        <img src="images/icons/vision.png" class="featured-block-image img-fluid" alt="">
+                        <p class="featured-block-text"><strong>Our Vision</strong></p>
+                        <p class="fw-bold" style="text-align: justify;">To provide quality health services through caring and being responsible to further the ministry of Jesus Christ to the family of God.</p>
+                    </a>
                 </div>
             </div>
 
-
-            <div class="col-12 col-md-4 mb-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="mb-3">Our Core Values</h5>
-
-                        <p class="fw-bold">Quality, Accessibility/Availability and transaparency of Health
-                            Proffession adhering to Ethical code of conduct and providing confirting services to all
-                            the needs, No practice of Bribery neither Corruption.</p>
-                    </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-4">
+                <div class="featured-block d-flex justify-content-center align-items-center">
+                    <a  class="d-block">
+                        <img src="images/icons/core value.png" class="featured-block-image img-fluid" alt="">
+                        <p class="featured-block-text"><strong>Our Core Value</strong></p>
+                        <p class="fw-bold" style="text-align: justify;">Quality, accessibility/availability, and transparency of health profession, adhering to ethical codes of conduct and providing comforting services to all in need, with no practice of bribery or corruption.</p>
+                    </a>
                 </div>
             </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-4">
         </div>
     </div>
 </section>
@@ -126,7 +115,7 @@
 
             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="custom-block-wrap">
-                    <img src="{{ asset('images/causes/group-african-kids-paying-attention-class.jpg') }}"
+                    <img src="{{ asset('images/get involved/one.jpg') }}"
                         class="custom-block-image img-fluid" alt="">
 
                     <div class="custom-block">
@@ -160,12 +149,12 @@
 
             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="custom-block-wrap">
-                    <img src="{{ asset('images/causes/poor-child-landfill-looks-forward-with-hope.jpg') }}"
+                    <img src="{{ asset('images/get involved/two.jpg') }}"
                         class="custom-block-image img-fluid" alt="">
 
                     <div class="custom-block">
                         <div class="custom-block-body">
-                            <h5 class="mb-3">WORK WITH US</h5>
+                            <h5 class="mb-3" style="text-align: justify;">WORK WITH US</h5>
 
                             <p>RHOTIA Health Center is excited to offer internship opportunities for international
                                 students pursuing medicine or related fields. This program not only provides invaluable
@@ -185,12 +174,12 @@
 
             <div class="col-lg-4 col-md-6 col-12">
                 <div class="custom-block-wrap">
-                    <img src="{{ asset('images/causes/african-woman-pouring-water-recipient-outdoors.jpg') }}"
+                    <img src="{{ asset('images/get involved/three.jpg') }}"
                         class="custom-block-image img-fluid" alt="">
 
                     <div class="custom-block">
                         <div class="custom-block-body">
-                            <h5 class="mb-3">DONATE</h5>
+                            <h5 class="mb-3" style="text-align: justify;">DONATE</h5>
 
                             <p>We invite you to join us in supporting an exciting initiative at RHOTIA Health Center
                                 that aims to enhance our community’s healthcare services. Our ongoing project focuses on
@@ -222,7 +211,7 @@
 
             <div class="col-lg-5 col-12">
                 <a href="{{ route('donate') }}" class="me-4 text-primary">Make a donation</a>
-                <a href="{{ route('volunteer') }}" class="me-4 text-primary">Become a volunteer</a>
+                <a href="{{ route('volunteer') }}" class="custom-btn btn smoothscroll">Become a volunteer</a>
             </div>
 
         </div>
@@ -240,14 +229,14 @@
 
             <div class="col-md-3 col-12 mb-4 mb-lg-0">
                 <div class="custom-block-wrap">
-                    <img  src="{{ asset('images/leaders/bishop.jpg') }}" class="custom-block-image img-fluid"
+                    <img  src="{{ asset('images/leaders/Sr Prisila.jpg') }}" class="custom-block-image img-fluid"
                         alt="">
 
                     <div class="custom-block">
                         <div class="custom-block-body">
-                            <h5 class="mb-3">Bishop Anthony Lagwen</h5>
+                            <h5 class="mb-3">Sr. M. Prisila Lyangani</h5>
 
-                            <p>Bishop dioces of Mbulu</p>
+                            <p>Facility Director</p>
                         </div>
                     </div>
                 </div>
@@ -255,16 +244,16 @@
 
             <div class="col-md-3 col-12 mb-4 mb-lg-0">
                 <div class="custom-block-wrap">
-                    <img src="{{ asset('images/causes/poor-child-landfill-looks-forward-with-hope.jpg') }}"
+                    <img src="{{ asset('images/leaders/Dr rozi.jpg') }}"
                         class="custom-block-image img-fluid" alt="">
 
                     <div class="custom-block">
                         <div class="custom-block-body">
                             <h5 class="mb-3">
-                                Sr. Prisila E. Lyangan
+                                Dr. Rozina Hangu
                             </h5>
 
-                            <p>Director</p>
+                            <p>Facility MOI</p>
                         </div>
                     </div>
                 </div>
@@ -272,14 +261,14 @@
 
             <div class="col-md-3 col-12">
                 <div class="custom-block-wrap">
-                    <img src="{{ asset('images/causes/african-woman-pouring-water-recipient-outdoors.jpg') }}"
+                    <img src="{{ asset('images/leaders/yonah.jpg') }}"
                         class="custom-block-image img-fluid" alt="">
 
                     <div class="custom-block">
                         <div class="custom-block-body">
-                            <h5 class="mb-3">Dr. Rozina J. Hangu</h5>
+                            <h5 class="mb-3">Yonah Stanley</h5>
 
-                            <p>Medical Officer In Charge</p>
+                            <p>Facility Secretary</p>
                         </div>
                     </div>
                 </div>
@@ -287,14 +276,14 @@
 
             <div class="col-md-3 col-12">
                 <div class="custom-block-wrap">
-                    <img src="{{ asset('images/causes/african-woman-pouring-water-recipient-outdoors.jpg') }}"
+                    <img src="{{ asset('images/leaders/matron.jpg') }}"
                         class="custom-block-image img-fluid" alt="">
 
                     <div class="custom-block">
                         <div class="custom-block-body">
-                            <h5 class="mb-3">Yohan Stanley</h5>
+                            <h5 class="mb-3">Christina Fungo</h5>
 
-                            <p>Health Secretary</p>
+                            <p>Facility Matron</p>
                         </div>
                     </div>
                 </div>
